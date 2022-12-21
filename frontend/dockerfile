@@ -1,0 +1,17 @@
+# Indicamos la imagen base a utilizar
+FROM node:19.3.0-alpine3.17
+
+# Establecemos el directorio de trabajo
+WORKDIR /app
+
+# Copiamos todos los archivos y carpetas excepto node_modules al contenedor
+COPY . .
+
+# Instalamos las dependencias necesarias
+RUN npm install
+
+# Exponemos el puerto 3000 del contenedor
+EXPOSE 3000
+
+# Establecemos el punto de entrada para la aplicación
+CMD ["npm", "run", "start"]

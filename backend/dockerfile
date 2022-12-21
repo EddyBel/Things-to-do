@@ -1,0 +1,17 @@
+# Indicamos la imagen base a utilizar
+FROM python:3.9.16-alpine3.17
+
+# Establecemos el directorio de trabajo
+WORKDIR /app
+
+# Copiamos los archivos de la aplicación al contenedor
+COPY . .
+
+# Instalamos las dependencias necesarias
+RUN pip install -r requeriments.txt
+
+# Exponemos el puerto 3001 del contenedor
+EXPOSE 8080
+
+# Establecemos el punto de entrada para la aplicación
+CMD ["python", "app.py"]
