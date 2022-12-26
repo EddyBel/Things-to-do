@@ -6,7 +6,7 @@ This project is a web application developed with a React frontend and a Python b
 
 The application has been designed using Bootstrap to provide an attractive and easy-to-use interface.
 
-# REAMDES
+# READMES
 
 :link: [Backend](./backend/README.md)
 
