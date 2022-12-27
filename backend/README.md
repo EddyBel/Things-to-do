@@ -14,7 +14,7 @@ This backend is responsible for providing the necessary functionality for the ap
 
 ![Capture_backend_two](../assets/docs/Capture_backend2.png)
 
-# Tecnologías utilizadas
+# Technologies used
 
 - Python
 - Flask
