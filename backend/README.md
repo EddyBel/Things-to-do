@@ -1,4 +1,4 @@
-<h1 align='center'>Backend con Python Flask y MongoDB</h1>
+<h1 align='center'>Backend with Python Flask and MongoDB</h1>
 
 This project uses Python Flask and MongoDB for the backend development of the application.
 
