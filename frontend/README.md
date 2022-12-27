@@ -1,4 +1,4 @@
-<h1 align='center' >Frontend de React y Bootstrap</h1>
+<h1 align='center' >Frontend with React and Bootstrap</h1>
 
 This project uses React and Bootstrap for the development of the frontend of the application.
 
